@@ -19,7 +19,7 @@ A simple job board frontend built using React, TypeScript, and mock API for Blue
 │   └── post.tsx                 // Post Job (auth protected)
 ├── services
 │   └── api.ts                   // fetcher for SWR and optional helpers
-├── __tests__
+├── __tests
 │   ├── JobCard.test.tsx
 │   └── AuthForm.test.tsx
 ├── styles
