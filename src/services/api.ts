@@ -1,11 +1,11 @@
 import type { Job } from "@/types"
 
 // Mock data
-const mockJobs: Job[] = [
+export const mockJobs: Job[] = [
   {
     id: "1",
     title: "Senior Frontend Developer",
-    company: "TechSA",
+    company: "Tech",
     location: "Cape Town",
     type: "Full-time",
     salary: "R45,000 - R65,000 per month",
@@ -31,7 +31,7 @@ const mockJobs: Job[] = [
   {
     id: "2",
     title: "Backend Engineer",
-    company: "DataSystems SA",
+    company: "DataSystems",
     location: "Johannesburg",
     type: "Full-time",
     salary: "R50,000 - R70,000 per month",
@@ -57,7 +57,7 @@ const mockJobs: Job[] = [
   {
     id: "3",
     title: "UX/UI Designer",
-    company: "CreativeMinds SA",
+    company: "CreativeMinds",
     location: "Durban",
     type: "Full-time",
     salary: "R35,000 - R50,000 per month",
@@ -83,7 +83,7 @@ const mockJobs: Job[] = [
   {
     id: "4",
     title: "DevOps Engineer",
-    company: "CloudTech SA",
+    company: "CloudTech",
     location: "Remote (South Africa)",
     type: "Contract",
     salary: "R40,000 - R60,000 per month",
@@ -109,7 +109,7 @@ const mockJobs: Job[] = [
   {
     id: "5",
     title: "Product Manager",
-    company: "InnovateSA",
+    company: "Innovate",
     location: "Pretoria",
     type: "Full-time",
     salary: "R45,000 - R65,000 per month",
@@ -135,7 +135,7 @@ const mockJobs: Job[] = [
   {
     id: "6",
     title: "Data Scientist",
-    company: "AnalyticsPro SA",
+    company: "AnalyticsPro",
     location: "Cape Town",
     type: "Full-time",
     salary: "R50,000 - R75,000 per month",
