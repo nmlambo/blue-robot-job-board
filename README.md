@@ -2,6 +2,17 @@
 
 A simple job board frontend built using NextJS, TypeScript, and mock API for Blue Robot's frontend technical assignment.
 
+🔗 **Live Preview:** [https://blue-robot-job-board.vercel.app](https://blue-robot-job-board.vercel.app)
+
+# Features
+
+- View a list of jobs on the home page
+- View individual job details
+- Fake authentication system
+- Post a new job (only if authenticated)
+- Theme toggle (dark/light)
+- Tested with Jest & Testing Library
+
 # Blue Robot Job Board (Project Structure)
 
 /job-board
@@ -55,7 +66,7 @@ A simple job board frontend built using NextJS, TypeScript, and mock API for Blu
 ├── tailwind.config.js                   // Tailwind configuration
 ├── tsconfig.json                        // TypeScript configuration
 ├── next.config.js                       // Next.js configuration
-├── jest.config.js                       // Jest configuration
+├── jest.config.ts                       // Jest configuration
 ├── jest.setup.js                        // Jest setup file
 └── README.md                            // Project documentation
 
@@ -66,10 +77,24 @@ A simple job board frontend built using NextJS, TypeScript, and mock API for Blu
 - Redux Toolkit for state management
 - Tailwind CSS
 - Framer Motion for animations
-- next-themes for dark mode
+- next-themes for dark/light mode
 - Jest for testing
 
 ## Login Details
 
+For demo purposes, you can use **any username and password** to "log in". This is a simulated authentication.
+
 Username: `<user-name>`
 Password: `<password>`
+
+🚀 Getting Started
+
+- Install Dependencies
+
+🏃 Run Dev Server
+
+- npm run dev
+
+🧪 Run Tests
+
+- npm run test
